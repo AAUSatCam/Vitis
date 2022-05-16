@@ -7573,3 +7573,570 @@ TRACE::2022-05-16.15:11:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AA
 C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2022-05-16.15:11:49::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:07::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:07::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:07::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:07::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:07::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:07::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:07::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened new HwDB with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWReader::Active system found as  SatCamPlatform
+TRACE::2022-05-16.15:45:10::SCWReader::Handling sysconfig SatCamPlatform
+TRACE::2022-05-16.15:45:10::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-16.15:45:10::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-05-16.15:45:10::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-16.15:45:10::SCWMssOS::No sw design opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::mss exists loading the mss file  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::Opened the sw design from mss  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::Adding the swdes entry C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-05-16.15:45:10::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-16.15:45:10::SCWMssOS::Opened the sw design.  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:10::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS:: library already available in sw design:  xilffs:4.6
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:10::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2022-05-16.15:45:10::SCWMssOS::Saving the mss changes C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-16.15:45:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-16.15:45:10::SCWMssOS::Commit changes completed.
+TRACE::2022-05-16.15:45:10::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-16.15:45:10::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:10::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWReader::No isolation master present  
+TRACE::2022-05-16.15:45:10::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-16.15:45:10::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-05-16.15:45:10::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:10::SCWMssOS::No sw design opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::mss exists loading the mss file  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::Opened the sw design from mss  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::Adding the swdes entry C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-16.15:45:10::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-16.15:45:10::SCWMssOS::Opened the sw design.  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::Saving the mss changes C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-16.15:45:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-16.15:45:10::SCWMssOS::Commit changes completed.
+TRACE::2022-05-16.15:45:10::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-16.15:45:10::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:10::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:10::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss|system_0||
+C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:10::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:10::SCWReader::No isolation master present  
+TRACE::2022-05-16.15:45:12::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:12::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:12::SCWPlatform:: Platform location is C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa
+TRACE::2022-05-16.15:45:12::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:12::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:16::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:16::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:16::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:16::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss|system_0||
+C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:16::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:16::SCWPlatform::update - Opened existing hwdb zsys_wrapper_0
+TRACE::2022-05-16.15:45:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:16::SCWMssOS::Doing hw sync for the mss in domain: freertos10_xilinx_domain
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:16::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2022-05-16.15:45:16::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2022-05-16.15:45:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:16::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss|system_0||
+C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:16::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/tempdsa/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:16::SCWPlatform::update - Opened existing hwdb zsys_wrapper_0
+TRACE::2022-05-16.15:45:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:16::SCWMssOS::Saving the mss changes C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:16::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-16.15:45:16::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-16.15:45:16::SCWMssOS::Commit changes completed.
+TRACE::2022-05-16.15:45:16::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2022-05-16.15:45:16::SCWMssOS::Removing the swdes entry for  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:16::SCWMssOS::Saving the mss changes C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:16::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-16.15:45:16::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-16.15:45:16::SCWMssOS::Commit changes completed.
+TRACE::2022-05-16.15:45:16::SCWMssOS::Completed hw sync for the mss in domain: freertos10_xilinx_domain
+TRACE::2022-05-16.15:45:16::SCWMssOS::Removing the swdes entry for  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:16::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:16::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:16::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-05-16.15:45:20::SCWPlatform::Opened new HwDB with name zsys_wrapper_1
+TRACE::2022-05-16.15:45:20::SCWMssOS::Saving the mss changes C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:20::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-05-16.15:45:20::SCWMssOS::Writing the mss file completed C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:20::SCWMssOS::Commit changes completed.
+TRACE::2022-05-16.15:45:20::SCWMssOS::Saving the mss changes C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:20::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-16.15:45:20::SCWMssOS::Writing the mss file completed C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:20::SCWMssOS::Commit changes completed.
+TRACE::2022-05-16.15:45:20::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:20::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:20::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:20::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:20::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:20::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:20::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper_1
+TRACE::2022-05-16.15:45:20::SCWPlatform::Opened existing hwdb zsys_wrapper_1
+TRACE::2022-05-16.15:45:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:20::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss|system_0||
+C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:20::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:20::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:20::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:20::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:20::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:20::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:20::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:20::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper_1
+TRACE::2022-05-16.15:45:20::SCWPlatform::Opened existing hwdb zsys_wrapper_1
+TRACE::2022-05-16.15:45:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:20::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss|system_0||
+C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:20::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:20::SCWWriter::formatted JSON is {
+	"platformName":	"SatCamPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SatCamPlatform",
+	"platHandOff":	"C:/School/Vivado/ZynqDemoRemake/vivado/zsys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zsys_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SatCamPlatform",
+	"systems":	[{
+			"systemName":	"SatCamPlatform",
+			"systemDesc":	"SatCamPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SatCamPlatform",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"23da6042a26497da493ffc908f4b806d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on ps7_cortexa9_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.10",
+					"mssFile":	"",
+					"md5Digest":	"5b035d2ec3f13df66500e9f4181ed8bf",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-05-16.15:45:28::SCWPlatform::Started generating the artifacts platform SatCamPlatform
+TRACE::2022-05-16.15:45:28::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-16.15:45:28::SCWPlatform::Started generating the artifacts for system configuration SatCamPlatform
+LOG::2022-05-16.15:45:28::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-05-16.15:45:28::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-05-16.15:45:28::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-05-16.15:45:28::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-05-16.15:45:28::SCWSystem::Checking the domain freertos10_xilinx_domain
+LOG::2022-05-16.15:45:28::SCWSystem::Not a boot domain 
+LOG::2022-05-16.15:45:28::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2022-05-16.15:45:28::SCWDomain::Generating domain artifcats
+TRACE::2022-05-16.15:45:28::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-16.15:45:28::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/sw/SatCamPlatform/qemu/
+TRACE::2022-05-16.15:45:28::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/sw/SatCamPlatform/freertos10_xilinx_domain/qemu/
+TRACE::2022-05-16.15:45:28::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-16.15:45:28::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:28::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:28::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:28::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:28::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:28::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:28::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper_1
+TRACE::2022-05-16.15:45:28::SCWPlatform::Opened existing hwdb zsys_wrapper_1
+TRACE::2022-05-16.15:45:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:28::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss|system_0||
+C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:28::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:28::SCWMssOS::Completed writing the mss file at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp
+TRACE::2022-05-16.15:45:28::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:28::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-16.15:45:28::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-16.15:45:28::SCWDomain::Skipping the build for domain :  freertos10_xilinx_domain
+TRACE::2022-05-16.15:45:28::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-05-16.15:45:28::SCWMssOS::Copying to export directory.
+TRACE::2022-05-16.15:45:29::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-05-16.15:45:29::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-05-16.15:45:29::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2022-05-16.15:45:29::SCWSystem::Completed Processing the sysconfig SatCamPlatform
+LOG::2022-05-16.15:45:29::SCWPlatform::Completed generating the artifacts for system configuration SatCamPlatform
+TRACE::2022-05-16.15:45:29::SCWPlatform::Started preparing the platform 
+TRACE::2022-05-16.15:45:29::SCWSystem::Writing the bif file for system config SatCamPlatform
+TRACE::2022-05-16.15:45:29::SCWSystem::dir created 
+TRACE::2022-05-16.15:45:29::SCWSystem::Writing the bif 
+TRACE::2022-05-16.15:45:29::SCWPlatform::Started writing the spfm file 
+TRACE::2022-05-16.15:45:29::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-05-16.15:45:29::SCWPlatform::Completed generating the platform
+TRACE::2022-05-16.15:45:29::SCWMssOS::Saving the mss changes C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-16.15:45:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-16.15:45:29::SCWMssOS::Commit changes completed.
+TRACE::2022-05-16.15:45:29::SCWMssOS::Saving the mss changes C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-16.15:45:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-16.15:45:29::SCWMssOS::Commit changes completed.
+TRACE::2022-05-16.15:45:29::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:29::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:29::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper_1
+TRACE::2022-05-16.15:45:29::SCWPlatform::Opened existing hwdb zsys_wrapper_1
+TRACE::2022-05-16.15:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:29::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss|system_0||
+C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:29::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.15:45:29::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:29::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:29::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper_1
+TRACE::2022-05-16.15:45:29::SCWPlatform::Opened existing hwdb zsys_wrapper_1
+TRACE::2022-05-16.15:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:29::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss|system_0||
+C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:29::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:29::SCWWriter::formatted JSON is {
+	"platformName":	"SatCamPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SatCamPlatform",
+	"platHandOff":	"C:/School/Vivado/ZynqDemoRemake/vivado/zsys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zsys_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SatCamPlatform",
+	"systems":	[{
+			"systemName":	"SatCamPlatform",
+			"systemDesc":	"SatCamPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SatCamPlatform",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"23da6042a26497da493ffc908f4b806d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on ps7_cortexa9_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.10",
+					"mssFile":	"",
+					"md5Digest":	"5b035d2ec3f13df66500e9f4181ed8bf",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-05-16.15:45:29::SCWPlatform::updated the xpfm file.
+TRACE::2022-05-16.15:45:29::SCWPlatform::Trying to open the hw design at C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform::DSA given C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform::DSA absoulate path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform::DSA directory C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw
+TRACE::2022-05-16.15:45:29::SCWPlatform:: Platform Path C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/hw/zsys_wrapper.xsa
+TRACE::2022-05-16.15:45:29::SCWPlatform:: Unique name xilinx:te0726_r::0.0
+TRACE::2022-05-16.15:45:29::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper_1
+TRACE::2022-05-16.15:45:29::SCWPlatform::Opened existing hwdb zsys_wrapper_1
+TRACE::2022-05-16.15:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.15:45:29::SCWMssOS::Checking the sw design at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2022-05-16.15:45:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss|system_0||
+C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.15:45:29::SCWMssOS::Sw design exists and opened at  C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/ps7_cortexa9_0/freertos10_xilinx_domain/bsp/system.mss

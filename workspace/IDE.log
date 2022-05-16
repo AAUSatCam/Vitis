@@ -357,3 +357,115 @@ con
 
 15:12:26 INFO  : Launch script is exported to file 'C:\Users\Bruger\git\AAUSatCam\workspace\SatCamApp_system\_ide\scripts\jtag.tcl'
 15:22:41 INFO  : Disconnected from the channel tcfchan#3.
+15:44:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Bruger\git\AAUSatCam\workspace\temp_xsdb_launch_script.tcl
+15:44:51 INFO  : XSCT server has started successfully.
+15:44:51 INFO  : plnx-install-location is set to ''
+15:44:51 INFO  : Successfully done setting XSCT server connection channel  
+15:44:51 INFO  : Successfully done setting workspace for the tool. 
+15:44:53 INFO  : Registering command handlers for Vitis TCF services
+15:44:55 INFO  : Platform repository initialization has completed.
+15:44:55 INFO  : Successfully done query RDI_DATADIR 
+15:45:20 INFO  : Hardware specification for platform project 'SatCamPlatform' is updated.
+15:45:29 INFO  : Result from executing command 'getProjects': SatCamPlatform
+15:45:29 INFO  : Result from executing command 'getPlatforms': SatCamPlatform|C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/SatCamPlatform.xpfm
+15:45:29 ERROR : Error from executing command 'addPlatformRepo': ERROR: No valid directory exists at given path.
+15:45:29 INFO  : Checking for BSP changes to sync application flags for project 'SatCamApp'...
+15:45:37 INFO  : The hardware specification used by project 'SatCamApp' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:45:37 INFO  : The file 'C:\Users\Bruger\git\AAUSatCam\SatCamApp\_ide\bitstream\zsys_wrapper.bit' stored in project is removed.
+15:45:37 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\Bruger\git\AAUSatCam\SatCamApp\_ide\bitstream' in project 'SatCamApp'.
+15:45:37 INFO  : The file 'C:\Users\Bruger\git\AAUSatCam\SatCamApp\_ide\psinit\ps7_init.tcl' stored in project is removed.
+15:45:44 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\Bruger\git\AAUSatCam\SatCamApp\_ide\psinit' in project 'SatCamApp'.
+15:45:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:45:52 INFO  : Jtag cable 'JTAG-ONB4 2516330075ADA' is selected.
+15:45:52 INFO  : 'jtag frequency' command is executed.
+15:45:52 INFO  : Context for 'APU' is selected.
+15:45:52 INFO  : System reset is completed.
+15:45:55 INFO  : 'after 3000' command is executed.
+15:45:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "JTAG-ONB4 2516330075ADA" && level==0 && jtag_device_ctx=="jsn-JTAG-ONB4-2516330075ADA-13722093-0"}' command is executed.
+15:45:56 INFO  : Device configured successfully with "C:/Users/Bruger/git/AAUSatCam/SatCamApp/_ide/bitstream/zsys_wrapper.bit"
+15:45:56 INFO  : Context for 'APU' is selected.
+15:45:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/hw/zsys_wrapper.xsa'.
+15:45:57 INFO  : 'configparams force-mem-access 1' command is executed.
+15:45:57 INFO  : Context for 'APU' is selected.
+15:45:57 INFO  : Sourcing of 'C:/Users/Bruger/git/AAUSatCam/SatCamApp/_ide/psinit/ps7_init.tcl' is done.
+15:45:58 INFO  : 'ps7_init' command is executed.
+15:45:58 INFO  : 'ps7_post_config' command is executed.
+15:45:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:45:59 INFO  : The application 'C:/Users/Bruger/git/AAUSatCam/SatCamApp/Debug/SatCamApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:45:59 INFO  : 'configparams force-mem-access 0' command is executed.
+15:45:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "JTAG-ONB4 2516330075ADA" && level==0 && jtag_device_ctx=="jsn-JTAG-ONB4-2516330075ADA-13722093-0"}
+fpga -file C:/Users/Bruger/git/AAUSatCam/SatCamApp/_ide/bitstream/zsys_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/hw/zsys_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Bruger/git/AAUSatCam/SatCamApp/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Bruger/git/AAUSatCam/SatCamApp/Debug/SatCamApp.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:45:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:46:00 INFO  : 'con' command is executed.
+15:46:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:46:00 INFO  : Launch script is exported to file 'C:\Users\Bruger\git\AAUSatCam\workspace\SatCamApp_system\_ide\scripts\jtag.tcl'
+15:49:01 INFO  : Checking for BSP changes to sync application flags for project 'SatCamApp'...
+15:49:08 INFO  : Disconnected from the channel tcfchan#2.
+15:49:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:49:09 INFO  : Jtag cable 'JTAG-ONB4 2516330075ADA' is selected.
+15:49:09 INFO  : 'jtag frequency' command is executed.
+15:49:09 INFO  : Context for 'APU' is selected.
+15:49:09 INFO  : System reset is completed.
+15:49:12 INFO  : 'after 3000' command is executed.
+15:49:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "JTAG-ONB4 2516330075ADA" && level==0 && jtag_device_ctx=="jsn-JTAG-ONB4-2516330075ADA-13722093-0"}' command is executed.
+15:49:13 INFO  : Device configured successfully with "C:/Users/Bruger/git/AAUSatCam/SatCamApp/_ide/bitstream/zsys_wrapper.bit"
+15:49:13 INFO  : Context for 'APU' is selected.
+15:49:13 INFO  : Hardware design and registers information is loaded from 'C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/hw/zsys_wrapper.xsa'.
+15:49:13 INFO  : 'configparams force-mem-access 1' command is executed.
+15:49:13 INFO  : Context for 'APU' is selected.
+15:49:13 INFO  : Sourcing of 'C:/Users/Bruger/git/AAUSatCam/SatCamApp/_ide/psinit/ps7_init.tcl' is done.
+15:49:14 INFO  : 'ps7_init' command is executed.
+15:49:14 INFO  : 'ps7_post_config' command is executed.
+15:49:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:49:15 INFO  : The application 'C:/Users/Bruger/git/AAUSatCam/SatCamApp/Debug/SatCamApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:49:15 INFO  : 'configparams force-mem-access 0' command is executed.
+15:49:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "JTAG-ONB4 2516330075ADA" && level==0 && jtag_device_ctx=="jsn-JTAG-ONB4-2516330075ADA-13722093-0"}
+fpga -file C:/Users/Bruger/git/AAUSatCam/SatCamApp/_ide/bitstream/zsys_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/hw/zsys_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Bruger/git/AAUSatCam/SatCamApp/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Bruger/git/AAUSatCam/SatCamApp/Debug/SatCamApp.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:49:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:49:16 INFO  : 'con' command is executed.
+15:49:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:49:16 INFO  : Launch script is exported to file 'C:\Users\Bruger\git\AAUSatCam\workspace\SatCamApp_system\_ide\scripts\jtag.tcl'
+15:50:21 INFO  : Checking for BSP changes to sync application flags for project 'SatCamApp'...
+15:53:24 INFO  : Disconnected from the channel tcfchan#3.

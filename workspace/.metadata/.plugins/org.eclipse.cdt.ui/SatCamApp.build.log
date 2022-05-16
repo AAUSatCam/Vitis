@@ -1,10 +1,25 @@
-15:11:53 **** Build of configuration Debug for project SatCamApp ****
+15:50:21 **** Incremental Build of configuration Debug for project SatCamApp ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-make[1]: Nothing to be done for 'main-build'.
+'Building file: ../src/can_driver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -std=c99 -mcpu=cortex-a9 -mfpu=neon -ftree-vectorize -mvectorize-with-neon-quad -mfloat-abi=softfp -ffast-math -g3 -I"C:\Users\Bruger\git\AAUSatCam\SatCamApp\lib\csp\include" -I"C:\Users\Bruger\git\AAUSatCam\SatCamApp\lib" -c -fmessage-length=0 -MT"src/can_driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/sw/SatCamPlatform/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/can_driver.d" -MT"src/can_driver.o" -o "src/can_driver.o" "../src/can_driver.c"
+'Finished building: ../src/can_driver.c'
+' '
+'Building target: SatCamApp.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/sw/SatCamPlatform/freertos10_xilinx_domain/bsplib/lib -o "SatCamApp.elf"  ./src/SatCamImage.o ./src/can_driver.o ./src/csp_hook_xil.o ./src/gpio_ctrl.o ./src/main.o ./src/staticrtos.o ./src/te_fsbl_hooks.o ./src/te_vdma.o ./src/vdma.o  ./lib/csp/src/interfaces/csp_if_can.o ./lib/csp/src/interfaces/csp_if_can_pbuf.o ./lib/csp/src/interfaces/csp_if_i2c.o ./lib/csp/src/interfaces/csp_if_lo.o ./lib/csp/src/interfaces/csp_if_tun.o ./lib/csp/src/interfaces/csp_if_zmqhub.o  ./lib/csp/src/crypto/csp_hmac.o ./lib/csp/src/crypto/csp_sha1.o  ./lib/csp/src/arch/freertos/csp_clock.o ./lib/csp/src/arch/freertos/csp_queue.o ./lib/csp/src/arch/freertos/csp_semaphore.o ./lib/csp/src/arch/freertos/csp_system.o ./lib/csp/src/arch/freertos/csp_time.o  ./lib/csp/src/csp_bridge.o ./lib/csp/src/csp_buffer.o ./lib/csp/src/csp_conn.o ./lib/csp/src/csp_crc32.o ./lib/csp/src/csp_debug.o ./lib/csp/src/csp_dedup.o ./lib/csp/src/csp_hex_dump.o ./lib/csp/src/csp_id.o ./lib/csp/src/csp_iflist.o ./lib/csp/src/csp_init.o ./lib/csp/src/csp_io.o ./lib/csp/src/csp_port.o ./lib/csp/src/csp_promisc.o ./lib/csp/src/csp_qfifo.o ./lib/csp/src/csp_rdp.o ./lib/csp/src/csp_rdp_queue.o ./lib/csp/src/csp_route.o ./lib/csp/src/csp_rtable_cidr.o ./lib/csp/src/csp_rtable_stdio.o ./lib/csp/src/csp_service_handler.o ./lib/csp/src/csp_services.o ./lib/csp/src/csp_sfp.o   -lm -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: SatCamApp.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size SatCamApp.elf  |tee "SatCamApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 226748	  10048	45717328	45954124	2bd344c	SatCamApp.elf
+'Finished building: SatCamApp.elf.size'
+' '
 
-15:11:54 Build Finished (took 1s.268ms)
+15:50:23 Build Finished (took 2s.138ms)
 

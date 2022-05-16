@@ -10,3 +10,6 @@ bsp reload
 platform generate -domains 
 platform config -updatehw {C:/School/Vivado/ZynqDemoRemake/vivado/zsys_wrapper.xsa}
 platform generate -domains 
+platform active {SatCamPlatform}
+platform config -updatehw {C:/School/Vivado/ZynqDemoRemake/vivado/zsys_wrapper.xsa}
+platform generate -domains 
