@@ -1,0 +1,10 @@
+12:04:38 **** Build of configuration Debug for project SatCamApp_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 65252 C:/School/Vivado/ZynqDemoRemake/workspace_final/SatCamPlatform/export/SatCamPlatform/SatCamPlatform.xpfm freertos10_xilinx_domain C:/School/Vivado/ZynqDemoRemake/workspace_final/SatCamApp_system/Debug/system.bif
+sdcard_gen --xpfm C:/School/Vivado/ZynqDemoRemake/workspace_final/SatCamPlatform/export/SatCamPlatform/SatCamPlatform.xpfm --sys_config SatCamPlatform --bif C:/School/Vivado/ZynqDemoRemake/workspace_final/SatCamApp_system/Debug/system.bif --bitstream C:/School/Vivado/ZynqDemoRemake/workspace_final/SatCamApp/_ide/bitstream/zsys_wrapper.bit --elf C:/School/Vivado/ZynqDemoRemake/workspace_final/SatCamApp/Debug/SatCamApp.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/School/Vivado/ZynqDemoRemake/workspace_final/SatCamApp/_ide/bitstream/zsys_wrapper.bit
+Running C:/Xilinx/Vitis/2021.2/bin/bootgen  -image C:/School/Vivado/ZynqDemoRemake/workspace_final/SatCamApp_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+12:04:46 Build Finished (took 8s.438ms)
+
