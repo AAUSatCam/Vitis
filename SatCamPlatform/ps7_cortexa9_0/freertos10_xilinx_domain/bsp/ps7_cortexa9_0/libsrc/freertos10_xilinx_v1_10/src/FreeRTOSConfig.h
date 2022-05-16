@@ -62,7 +62,7 @@
 
 #define configMESSAGE_BUFFER 0
 
-#define configSUPPORT_STATIC_ALLOCATION 0
+#define configSUPPORT_STATIC_ALLOCATION 1
 
 #define configUSE_16_BIT_TICKS 0
 
