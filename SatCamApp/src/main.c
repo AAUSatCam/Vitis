@@ -28,6 +28,8 @@
 // Camera defines
 extern unsigned char VideoBuffer[1080*1920*4];
 unsigned char CompressionBuffer[1080*1920*4];
+unsigned char *ptrHuffOutput;
+int huffOutputSize;
 
 // Static memory allocation functions
 #include "staticrtos.h"
@@ -46,7 +48,7 @@ extern size_t bitPosInOutString;
 #define DELAY_1_SECOND		1000UL
 
 /*-----------------------------------------------------------*/
-static void vIdleTask( void *pvParameters );
+static void vCSPTask( void *pvParameters );
 static void vCameraTask( void *pvParameters );
 static void vCameraSetup( void *pvParameters );
 /*-----------------------------------------------------------*/
@@ -58,7 +60,7 @@ char ForceImage = 0;
 
 /* The queue used by the Tx and Rx tasks, as described at the top of this
 file. */
-static TaskHandle_t xIdleTask;
+static TaskHandle_t xCSPTask;
 static TaskHandle_t xCameraTask;
 static TaskHandle_t xCameraSetup;
 
@@ -66,38 +68,26 @@ int main( void )
 {
 	xil_printf( "Booting..\r\n" );
 
+	// Setup CAN bus.
 	xil_setup_can();
 
+	// Initialize CSP buffers.
 	csp_buffer_init();
 
-	csp_qfifo_init(); // Seems to make it work ???
+	// Initialize FIFOs
+	csp_qfifo_init();
 
+	// Initialize CSP conns.
 	csp_conn_init();
 
-	csp_iface_can_init(0x1C1F, 8, 500000);
-
-	//xilSendLongCFPFrame(0x1C3B, 0x0F, 0x0F, 0x1D, &Test);
-
-	//uint8_t stuffToSend[12] = {0x11,0x22,0x33,0x44,0x55,0x66,0x77,0x88, 0x99, 0xAA, 0xBB, 0xCC};
-
-	//cspSender(stuffToSend, 12, 0x1c1f, 0xf, 0xf, 0x1d);
-
-	/*
-	if (Status != XST_SUCCESS) {
-		xil_printf("CAN Interrupt Example Test Failed..\r\n");
-		return XST_FAILURE;
-	}
-	*/
-
-	// Intialize the interface of the can device
-	/*
-	csp_driver_can_init(1, 5, 500000);
-	*/
+	// Bind CSP iface.
+	csp_iface_can_init(0x1C1F, 8, 500000, 0x1C3F);
 
 	// Create task to configure the camera
 	xTaskCreate(vCameraSetup, "Camera setup", 512, NULL, tskIDLE_PRIORITY+5, &xCameraSetup);
 
-	xTaskCreate(vIdleTask, "Idle task", 200, NULL, tskIDLE_PRIORITY, &xIdleTask);
+	// CSP task
+	xTaskCreate(vCSPTask, "CSP task", 200, NULL, tskIDLE_PRIORITY, &xCSPTask);
 
 	// Create task for camera handling
 	xTaskCreate(vCameraTask, "Camera task", 512, NULL, tskIDLE_PRIORITY+1, &xCameraTask);
@@ -106,7 +96,6 @@ int main( void )
 	xCam_TakePicture = xSemaphoreCreateBinary();
 	xCam_Configured = xSemaphoreCreateBinary();
 
-	//xSemaphoreGive( xCam_TakePicture );
 
 	/* Start the tasks and timer running. */
 	vTaskStartScheduler();
@@ -116,13 +105,13 @@ int main( void )
 	insufficient FreeRTOS heap memory available for the idle and/or timer tasks
 	to be created.  See the memory management section on the FreeRTOS web site
 	for more details. */
-	//for( ;; );
+	for( ;; );
 
 }
 
 
 /*-----------------------------------------------------------*/
-static void vIdleTask( void *pvParameters )
+static void vCSPTask( void *pvParameters )
 {
 	csp_qfifo_t inputQueue;
 
@@ -189,18 +178,21 @@ static void vCameraTask ( void *pvParameters ) {
 
 					xil_printf("Starting compression.. \r\n"); // Serial debug message.
 					ReadDataToBuffer((char *)CompressionBuffer, MID);
+					/*
 					xil_printf("Calculating DCT.. \r\n"); // Serial debug message.
 					//DCTToBuffers(MID);
 					FastDCTToBuffer(MID);
 					xil_printf("Calculating quantization.. \r\n"); // Serial debug message.
-					QuantBuffers(MID);
+					//QuantBuffers(MID);
 					xil_printf("Calculating diff.. \r\n");
-					DiffDCBuffers(MID);
+					//DiffDCBuffers(MID);
 					xil_printf("Calculating zigzag.. \r\n");
-					ZigzagBuffers(MID);
+					//ZigzagBuffers(MID);
 					xil_printf("Calculating huffman.. \r\n");
-					HuffmanEncode(MID);
+					//HuffmanEncode(MID);
 					xil_printf("Creating output string.. \r\n");
+					*/
+					RAMToHuffman((char *)CompressionBuffer, &ptrHuffOutput, &huffOutputSize, MID);
 
 					while(!(bitPosInOutString%8 == 0)) {
 						AddToBitString(1, 1, 0);
@@ -273,6 +265,8 @@ static void vCameraSetup( void *pvParameters )
 
 	Xil_Out32(0x43c10040, 0x1);
 	xil_printf("Enabled CSI.. \r\n");
+
+	huffOutputSize = 0;
 
 	// Give semaphore...
 	xSemaphoreGive( xCam_Configured );

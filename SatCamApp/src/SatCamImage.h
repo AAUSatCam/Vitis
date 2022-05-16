@@ -130,26 +130,40 @@ int BuildJFIFHeader(JFIFHEADER* headerptr, BYTE unit, BYTE xDensity[2], BYTE yDe
 int DestroyJFIFHeader(JFIFHEADER* headerptr);
 // int DestroyEXIFHeader();
 
+/*
+ * Function for getting resolutions
+ * Return is resolutions, not error
+*/
+int getXRes(enum RESMODE resMode);
+int getYRes(enum RESMODE resMode);
+
 /* Function built to move bits into the huffman buffer */
 int AddToBitString(int len, signed short bitsToAdd, int isNegative);
 
 /* Functions specifically for testing purposes */
 int TestInput();
 
-/* Some functions are written with ints to return potential errors */
+/* Pipeline functions */
 int ReadDataToBuffer(char* dataAddr, enum RESMODE resMode);
-int DCTToBuffers(enum RESMODE resMode);
-int QuantBuffers(enum RESMODE resMode);
-int DiffDCBuffers(enum RESMODE resMode);
-int ZigzagBuffers(enum RESMODE resMode);
+int DCTToBuffer(enum RESMODE resMode);
+int QuantBuffer(enum RESMODE resMode);
+int DiffDCBuffer(enum RESMODE resMode);
+int ZigzagBuffer(enum RESMODE resMode);
 int HuffmanEncode(enum RESMODE resMode);
 
-int FastDCTToBuffer(enum RESMODE resMode);
-
+/* Debugging functions */
 int OutputYCbCr(enum RESMODE resMode, int bufMode, int fileMode);
 int printDCTY(int printX, int printY, int xIndex, int yIndex);
 int printDCTCb(int printX, int printY, int xIndex, int yIndex);
 int printDCTCr(int printX, int printY, int xIndex, int yIndex);
-int WriteToJPEG();
+
+/* Ease-of-use functions */
+int RawFileToHuffman(FILE* rawFile, unsigned char** huffPtr, int* huffPtrLen, enum RESMODE resMode); // File to Huffman
+int RawFileToJPEG(FILE* rawFile, FILE* jpegFile, enum RESMODE resMode);// File to JPEG
+int RAMToHuffman(char* dataAddr, unsigned char** huffPtr, int* huffPtrLen, enum RESMODE resMode); // RAM to Huffman
+int RAMToJPEG(char* dataAddr, FILE* jpegFile, enum RESMODE resMode); // RAM to JPEG
+
+/* New function being tested */
+int FastDCTToBuffer(enum RESMODE resMode);
 
 #endif

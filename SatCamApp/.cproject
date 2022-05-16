@@ -41,7 +41,7 @@
                             							
                             <tool id="xilinx.gnu.armv7.c.toolchain.assembler.debug.2018968724" name="ARM v7 gcc assembler" superClass="xilinx.gnu.armv7.c.toolchain.assembler.debug">
                                 								
-                                <option id="xilinx.gnu.both.asm.option.include.paths.448817480" name="Include Paths (-I)" superClass="xilinx.gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath"/>
+                                <option id="xilinx.gnu.both.asm.option.include.paths.448817480" name="Include Paths (-I)" superClass="xilinx.gnu.both.asm.option.include.paths" useByScannerDiscovery="false"/>
                                 								
                                 <inputType id="xilinx.gnu.assembler.input.582398931" superClass="xilinx.gnu.assembler.input"/>
                                 							
