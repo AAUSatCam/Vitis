@@ -263,7 +263,7 @@ static void vCameraSetup( void *pvParameters )
 
 	vTaskDelay(pdMS_TO_TICKS(2000));
 
-	Xil_Out32(0x43c10040, 0x1);
+	Xil_Out32(0x43c10040, 0x3);
 	xil_printf("Enabled CSI.. \r\n");
 
 	huffOutputSize = 0;
