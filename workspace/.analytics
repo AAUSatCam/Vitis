@@ -88,3 +88,6 @@ timestamp=[2022-05-16 14:21:29], mode=BUILD, duration=0:00:01.169, duration_ms=1
 timestamp=[2022-05-16 14:21:42], mode=BUILD, duration=0:00:01.179, duration_ms=1179, data={name=SatCamApp, configuration=Debug, clean_build=false}
 timestamp=[2022-05-16 14:22:14], mode=BUILD, duration=0:00:02.058, duration_ms=2058, data={name=SatCamApp, configuration=Debug, clean_build=false}
 timestamp=[2022-05-16 14:22:22], mode=BUILD, duration=0:00:07.312, duration_ms=7312, data={name=SatCamApp_system, configuration=Debug, clean_build=false}
+timestamp=[2022-05-16 14:23:40], mode=WORKBENCH_START, duration=0:00:07.334, duration_ms=7334, data={}
+timestamp=[2022-05-16 14:23:42], mode=WORKBENCH_UI_INIT, duration=0:00:01.468, duration_ms=1468, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,SatCamApp,SatCamApp_system,SatCamPlatform}
+timestamp=[2022-05-16 14:23:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.690, duration_ms=690, data={}
