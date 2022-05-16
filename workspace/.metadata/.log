@@ -2651,3 +2651,42 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:04:36.527
 !MESSAGE XSCT command with result: [::hsi::utils::closesw C:/School/Vivado/ZynqDemoRemake/workspace_final/SatCamPlatform/export/SatCamPlatform/sw/SatCamPlatform/freertos10_xilinx_domain/system.mss], Result: [null, ]. Thread: Worker-3: Build Project
+!SESSION 2022-05-16 12:09:40.965 -----------------------------------------------
+eclipse.buildId=2021.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=da_DK
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2022-05-16 12:09:57.399
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:03.356
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:03.358
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-25
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:03.367
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:03.369
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-25
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:03.383
+!MESSAGE XSCT Command: [setws C:/Users/Bruger/git/AAUSatCam/workspace], Thread: Thread-25
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:03.390
+!MESSAGE XSCT command with result: [setws C:/Users/Bruger/git/AAUSatCam/workspace], Result: [null, ]. Thread: Thread-25
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:03.706
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:04.178
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:04.180
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-16 12:10:04.182
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2021.2/data]. Thread: Worker-3: Initializing s/w repositories
