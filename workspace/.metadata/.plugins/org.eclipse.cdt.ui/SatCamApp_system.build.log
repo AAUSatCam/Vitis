@@ -1,6 +1,6 @@
-15:50:24 **** Incremental Build of configuration Debug for project SatCamApp_system ****
+14:12:03 **** Incremental Build of configuration Debug for project SatCamApp_system ****
 make all 
 Generate SD card image option is not selected
 
-15:50:24 Build Finished (took 176ms)
+14:12:03 Build Finished (took 114ms)
 

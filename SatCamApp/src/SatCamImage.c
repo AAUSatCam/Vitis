@@ -3,9 +3,18 @@
  * Created by person, month date, 2022
 */
 
+//#include "task.h"
+
 /* Include header files */
 #include "SatCamImage.h"
 #include "jpegheader.h"
+
+#include "FreeRTOS.h"
+#include "task.h"
+
+// Debug timer stuff
+extern TickType_t debug_timer1, debug_timer2, debug_timer3, debug_timer4, debug_timer5;
+//
 
 /* Markers for JPEG creation */
 BYTE SOI[2] = {0xff, 0xd8}; /* Start of Image Marker */
@@ -1903,31 +1912,37 @@ int RawFileToJPEG(FILE* rawFile, FILE* jpegFile, enum RESMODE resMode) {
  * Output: Error code
 */
 int RAMToHuffman(char* dataAddr, unsigned char** huffPtr, int* huffPtrLen, enum RESMODE resMode) {
+
     if(ReadDataToBuffer(dataAddr, resMode) == -1) {
         printf("\nError occurred in ReadDataToBuffer.\n");
         return -1;
     }
 
+    debug_timer1 = xTaskGetTickCount();
     if(FastDCTToBuffer(resMode) == -1) {
         printf("\nError occurred in DCTToBuffers.\n");
         return -1;
     }
 
+    debug_timer2 = xTaskGetTickCount();
     if(QuantBuffer(resMode) == -1) {
         printf("\nError occurred in QuantBuffers.\n");
         return -1;
     }
 
+    debug_timer3 = xTaskGetTickCount();
     if(DiffDCBuffer(resMode) == -1) {
         printf("\nError occurred in DiffDCBuffers.\n");
         return -1;
     }
 
+    debug_timer4 = xTaskGetTickCount();
     if(ZigzagBuffer(resMode) == -1) {
         printf("\nError occurred in ZigzagBuffers.\n");
         return -1;
     }
 
+    debug_timer5 = xTaskGetTickCount();
     if(HuffmanEncode(resMode) == -1) {
         printf("\nError occurred in HuffmanEncode.\n");
         return -1;

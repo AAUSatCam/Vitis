@@ -69,7 +69,9 @@
                                     								
                                 </option>
                                 								
-                                <option id="xilinx.gnu.compiler.option.optimization.flags.28726834" name="Other optimization flags" superClass="xilinx.gnu.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-std=c99 -mcpu=cortex-a9 -mfpu=neon -ftree-vectorize -mvectorize-with-neon-quad -mfloat-abi=softfp -ffast-math" valueType="string"/>
+                                <option id="xilinx.gnu.compiler.option.optimization.flags.28726834" name="Other optimization flags" superClass="xilinx.gnu.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-std=c99 -mcpu=cortex-a9 -mfpu=neon -ftree-vectorize -mvectorize-with-neon-quad -mfloat-abi=softfp -ffast-math -Ofast -fno-signed-zeros -fno-trapping-math -frename-registers -funroll-loops" valueType="string"/>
+                                								
+                                <option id="xilinx.gnu.compiler.option.profiling.enable.1313395409" name="Enable Profiling (-pg)" superClass="xilinx.gnu.compiler.option.profiling.enable" useByScannerDiscovery="false" value="false" valueType="boolean"/>
                                 								
                                 <inputType id="xilinx.gnu.armv7.c.compiler.input.179589152" name="C source files" superClass="xilinx.gnu.armv7.c.compiler.input"/>
                                 							
@@ -115,6 +117,8 @@
                                     								
                                 </option>
                                 								
+                                <option id="xilinx.gnu.c.linker.option.pg.1981736954" name="Enable Profiling" superClass="xilinx.gnu.c.linker.option.pg" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+                                								
                                 <inputType id="xilinx.gnu.linker.input.679142021" superClass="xilinx.gnu.linker.input">
                                     									
                                     <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -142,6 +146,8 @@
                                 </option>
                                 								
                                 <option id="xilinx.gnu.c.linker.option.lscript.520080006" name="Linker Script" superClass="xilinx.gnu.c.linker.option.lscript" value="../src/lscript.ld" valueType="string"/>
+                                								
+                                <option id="xilinx.gnu.c.linker.option.pg.831566055" name="Enable Profiling" superClass="xilinx.gnu.c.linker.option.pg" value="false" valueType="boolean"/>
                                 							
                             </tool>
                             							

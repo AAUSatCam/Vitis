@@ -674,6 +674,7 @@ int cspSender(uint8_t* dataToSend, uint8_t dataLength, uint16_t destination, uin
 
 		csp_conn_t * CSPConnect = csp_connect(0x00, destination, destP, CSP_MAX_TIMEOUT,0);
 
+		xil_printf("CSP Send: %x %x %x \r\n", destination, destP, dataToSend[0]);
 
 		// Call the csp tx function through return.
 		csp_send(CSPConnect, Packet);
