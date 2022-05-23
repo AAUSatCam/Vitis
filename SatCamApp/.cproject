@@ -69,7 +69,7 @@
                                     								
                                 </option>
                                 								
-                                <option id="xilinx.gnu.compiler.option.optimization.flags.28726834" name="Other optimization flags" superClass="xilinx.gnu.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-std=c99 -mcpu=cortex-a9 -mfpu=neon -ftree-vectorize -mvectorize-with-neon-quad -mfloat-abi=softfp -ffast-math -Ofast -fno-signed-zeros -fno-trapping-math -frename-registers -funroll-loops" valueType="string"/>
+                                <option id="xilinx.gnu.compiler.option.optimization.flags.28726834" name="Other optimization flags" superClass="xilinx.gnu.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-std=c99 -mcpu=cortex-a9 -mfpu=neon -ftree-vectorize -mvectorize-with-neon-quad -mfloat-abi=softfp -ffast-math -Ofast" valueType="string"/>
                                 								
                                 <option id="xilinx.gnu.compiler.option.profiling.enable.1313395409" name="Enable Profiling (-pg)" superClass="xilinx.gnu.compiler.option.profiling.enable" useByScannerDiscovery="false" value="false" valueType="boolean"/>
                                 								

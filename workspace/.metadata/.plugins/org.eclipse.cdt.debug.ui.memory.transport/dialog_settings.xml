@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="EXPORT_DIALOG">
-		<item key="Start" value="0x13c040"/>
-		<item key="End" value="0x150028"/>
-		<item key="Initial address" value="0x13c040"/>
-		<item key="File" value="C:\Users\Bruger\Documents\Universitet\4. Semester\Semesterprojekt\PythonScripts\AcceptTest\frontpage_selfie.bin"/>
+		<item key="Start" value="0x1502a0c"/>
+		<item key="End" value="0x1ceba0c"/>
+		<item key="Initial address" value="0x1502a0c"/>
+		<item key="File" value="C:\Users\Bruger\Documents\Universitet\4. Semester\Semesterprojekt\PythonScripts\AcceptTest\NewYCbCr\DeadPixel.bin"/>
 		<item key="SELECTED_EXPORTER" value="rawbinary"/>
+	</section>
+	<section name="IMPORT_DIALOG">
+		<item key="Start" value="0x1fc00000"/>
+		<item key="Initial address" value="0x1fc00000"/>
+		<item key="File" value="C:\Users\Bruger\Documents\Universitet\4. Semester\Semesterprojekt\PythonScripts\rgba-png\direct_vdma_memdump.bin"/>
+		<item key="ScrollToStart" value="false"/>
+		<item key="SELECTED_IMPORTER" value="rawbinary"/>
 	</section>
 </section>

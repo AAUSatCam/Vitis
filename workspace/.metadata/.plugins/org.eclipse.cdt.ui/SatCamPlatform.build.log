@@ -1,2 +1,20 @@
-Nothing to build in platform 'SatCamPlatform'
+16:53:59 **** Build of project SatCamPlatform ****
+buildplatform.bat 52284 SatCamPlatform  
+XSDB Server Channel: tcfchan#2
+No Platform exists with name:  SatCamPlatform
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active SatCamPlatform; platform generate }}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "C:/Xilinx/Vitis/2021.2\scripts\vitis\util\buildplatform.tcl" line 11)
+
+16:54:01 Build Finished (took 1s.812ms)
 

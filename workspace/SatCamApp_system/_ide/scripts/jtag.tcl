@@ -13,7 +13,7 @@ connect -url tcp:127.0.0.1:3121
 targets -set -nocase -filter {name =~"APU*"}
 rst -system
 after 3000
-targets -set -filter {jtag_cable_name =~ "JTAG-ONB4 2516330075ADA" && level==0 && jtag_device_ctx=="jsn-JTAG-ONB4-2516330075ADA-13722093-0"}
+targets -set -filter {jtag_cable_name =~ "JTAG-ONB4 2516330075AEA" && level==0 && jtag_device_ctx=="jsn-JTAG-ONB4-2516330075AEA-13722093-0"}
 fpga -file C:/Users/Bruger/git/AAUSatCam/SatCamApp/_ide/bitstream/zsys_wrapper.bit
 targets -set -nocase -filter {name =~"APU*"}
 loadhw -hw C:/Users/Bruger/git/AAUSatCam/SatCamPlatform/export/SatCamPlatform/hw/zsys_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs

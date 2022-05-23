@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\Users\Bruger\git\AAUSatCam\SatCamPlatform\zynq_fsbl\fsbl.elf
+	C:\Users\Bruger\git\AAUSatCam\SatCamPlatform\export\SatCamPlatform\hw\zsys_wrapper.bit
+	C:\Users\Bruger\git\AAUSatCam\SatCamApp\Debug\SatCamApp.elf
+}

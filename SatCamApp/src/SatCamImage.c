@@ -33,9 +33,9 @@ size_t maxBitPos = sizeof(huffOutput) * 8;
 // Using BT.709 standard
 int transMatrix[] =
 {
-    47, 157, 16,
-    -26, -87, 112,
-    112, -102, -10
+    66, 129, 25,
+	-38, -74, 112,
+	112, -94, -18
 };
 
 /* Tables for categories */

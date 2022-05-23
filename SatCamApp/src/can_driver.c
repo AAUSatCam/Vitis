@@ -333,7 +333,7 @@ static void ErrorHandler(void *CallBackRef, u32 ErrorMask)
 		/*
 		 * ACK Error handling code should be put here.
 		 */
-		xil_printf("? \r\n");
+		//xil_printf("? \r\n");
 
 	}
 
@@ -341,7 +341,7 @@ static void ErrorHandler(void *CallBackRef, u32 ErrorMask)
 		/*
 		 * Bit Error handling code should be put here.
 		 */
-		xil_printf("! \r\n");
+		//xil_printf("! \r\n");
 
 	}
 
@@ -601,8 +601,8 @@ void csp_iface_can_init(int addr, int netmask, uint32_t bitrate, uint16_t logAdd
 	 * CFP_REMAIN gives possibility of 255 * 8 bytes = 2040
 	 * CSP_BEGIN frame, has two additional bytes, in total 2042 */
      xilCanInt.interface.mtu = CSP_BUFFER_SIZE; // Changed to 2042, instead of meson build from ubuntu 256.
-	if ( xilCanInt.interface.mtu > 116) {
-		 xilCanInt.interface.mtu = 116;
+	if ( xilCanInt.interface.mtu > 60) {
+		 xilCanInt.interface.mtu = 60;
 	}
 
 	 xilCanInt.ifdata.pbufs = NULL;

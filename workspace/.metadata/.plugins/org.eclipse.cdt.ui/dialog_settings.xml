@@ -9,6 +9,11 @@
 		<item key="askReindex.detail" value="0"/>
 	</section>
 	<section name="PDOMSearchPage">
+		<item key="caseSensitive" value="false"/>
+		<item key="searchFlags" value="227191"/>
+		<list key="previousPatterns">
+			<item value="*BO*"/>
+		</list>
 	</section>
 	<section name="org.eclipse.cdt.ui.OPEN_ACTION_SELECTION_DIALOG_SECTION">
 		<item key="DIALOG_X_ORIGIN" value="769"/>
