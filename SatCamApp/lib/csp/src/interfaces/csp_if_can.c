@@ -266,10 +266,10 @@ int csp_can2_rx(csp_iface_t * iface, uint32_t id, const uint8_t * data, uint8_t 
 	csp_packet_t * packet = csp_can_pbuf_find(ifdata, id, CFP2_ID_CONN_MASK, task_woken); // Find the pbuf (packet buffer). This sets the packet beginning.
 	// Check what is in the packet is it equal to zero. This is if now new packet is found.
 	if (packet == NULL) {
-		// Something about a wrong id check
+		// Check if beginning frame
 		if (id & (CFP2_BEGIN_MASK << CFP2_BEGIN_OFFSET)) {
 			// Make a new empty buffer.
-			packet = csp_can_pbuf_new(ifdata, id, task_woken); // added address variable thing
+			packet = csp_can_pbuf_new(ifdata, id, task_woken);
 			if (packet == NULL) {
 				iface->rx_error++;
 				return CSP_ERR_NOMEM;
@@ -282,7 +282,7 @@ int csp_can2_rx(csp_iface_t * iface, uint32_t id, const uint8_t * data, uint8_t 
 
 
 	/* BEGIN  Acutally parsing the CAN frame*/
-	// Checks if this is the first frame as it can be seen from the begin byte.
+	// Checks if this is the first frame as it can be seen from the begin bit.
 	if (id & (CFP2_BEGIN_MASK << CFP2_BEGIN_OFFSET)) {
 
 		/* Discard packet if DLC is less than CSP id + CSP length fields */ // If you did not send in the correct format throw away and do error.
